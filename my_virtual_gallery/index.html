@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!--  Meta  -->
+    <meta charset="UTF-8" />
+    <title>Página web responsive</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--  Styles  -->
+    <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Pathway+Extreme:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tilt+Warp&display=swap" rel="stylesheet" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet" />
+      <link rel="stylesheet" href="styles.css" />
+    </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav>
+        <ul class="nav">
+          <li class="nav__item">
+            <a href="#heroSection" class="nav__link">Inicio</a>
+          </li>
+          <li class="nav__item">
+            <a href="#productsSection" class="nav__link">Japón</a>
+          </li>
+          <li class="nav__item">
+            <a href="#featuresSection" class="nav__link">México</a>
+          </li>
+          <li class="nav__item">
+            <a href="#pricingSection" class="nav__link">Precios</a>
+          </li>
+          <li class="nav__item">
+            <a href="#testimonialsSection" class="nav__link">Proceso</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contactSection" class="nav__link">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="heroSection" class="hero">
+      <div class="hero__content">
+        <h1 class="hero__title">Galería Virtual</h1>
+        <p class="hero__subtitle">fotografía intervenida con hilos</p>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="productsSection" class="products">
+      <div class="container">
+        <h2 class="products__title">Colección Japón</h2>
+        <div class="products-grid">
+          <div class="product">
+            <img
+              src="/images/JAPON/bamboo1.png"
+              alt="Product 1"
+              class="product__image"
+            />
+           
+          </div>
+          <div class="product">
+            <img
+    src="/images/JAPON/maple1.png"
+    alt="Product 2"
+    class="product__image"
+  />
+          </div>
+          <div class="product">
+            <img
+              src="/images/JAPON/cerezo01.png"
+              alt="Product 3"
+              class="product__image"
+            />
+          
+          </div>
+          <div class="product">
+            <img
+              src="/images/JAPON/circulo.png"
+              alt="Product 4"
+              class="product__image"
+            />
+
+          </div>
+          <div class="product">
+            <img
+              src="/images/JAPON/bonsai.png"
+              alt="Product 4"
+              class="product__image"
+            />
+          </div>
+          <div class="product">
+            <img
+              src="/images/JAPON/ginkgo.png"
+              alt="Product 4"
+              class="product__image"
+            />
+        
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="featuresSection" class="features">
+      <div class="container2">
+        <h2 class="features__title">Colección México</h2>
+        <div class="features-container">
+          <div class="feature">
+            
+            <img
+              src="/images/BUGAMBILIA/BUGAMBILIA6.JPEG"
+              alt="Feature 1"
+              class="feature__image"
+            />
+          </div>
+          <div class="feature">
+        
+            <img
+              src="/images/BUGAMBILIA/bugambilia00.png"
+              alt="Feature 2"
+              class="feature__image"
+            />
+  
+          </div>
+          <div class="feature">
+           
+            <img
+              src="/images/CDMX/jacaranda01.png"
+              alt="Feature 2"
+              class="feature__image"
+            />
+          
+          </div>
+           
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricingSection" class="pricing">
+      <div class="container">
+        <h2 class="pricing__title">Formatos de Venta</h2>
+        <div class="price-cards">
+          <div class="price-card" onclick="window.location.href='#'">
+            <h3 class="price-card__title">Print</h3>
+            <!-- Replace the <p> tag with <img> tag -->
+            <img src="/images/CDMX/ESPESCULTORICO1.jpg" alt="Photo Print" class="price-card__image">
+            <p class="price">$19.99</p>
+            <a href="#" class="cta-button">Seleccionar</a>
+          </div>
+          <div class="price-card" onclick="window.location.href='#'">
+            <h3 class="price-card__title">Illustración</h3>
+            <img src="/images/BUGAMBILIA/BUGAMBILIA5.jpg" alt="Photo Illustration" class="price-card__image">
+            <p class="price">$39.99</p>
+            <a href="#" class="cta-button">Seleccionar</a>
+          </div>
+          <div class="price-card" onclick="window.location.href='#'">
+            <h3 class="price-card__title">Bordado</h3>
+            <img src="/images/BUGAMBILIA/atras.png" alt="Photo Bordada" class="price-card__image">
+            <p class="price">$59.99</p>
+            <a href="#" class="cta-button">Seleccionar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonialsSection" class="testimonials">
+      <div class="container">
+        <h2 class="testimonials__title">Proceso</h2>
+        <div class="testimonials-carousel">
+          <div class="testimonials-wrapper" id="testimonials-carousel">
+            <div class="testimonial" id="testimonial-1">
+              <p class="testimonial__text">
+                Se utilizan únicamente fotografías análogas impresas en papel fotográfico de fibra de algodón satinado
+              </p>
+              <p>Cada una es ilustrada a mano
+              </p>
+              <p>Y son bordadas a mano con hilo DMC</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contactSection" class="contact">
+      <div class="container">
+        <h2 class="contact__title">Contáctanos</h2>
+        <p class="contact__description">
+          ¿Tienes preguntas o comentarios? ¡Contáctanos ahora!
+        </p>
+        <form class="contact-form">
+          <label for="name" class="contact-form__label">Nombre:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            class="contact-form__input"
+            placeholder="Tu Nombre"
+            required
+          />
+
+          <label for="email" class="contact-form__label">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="contact-form__input"
+            placeholder="Tu Email"
+            required
+          />
+
+          <label for="message" class="contact-form__label">Mensaje:</label>
+          <textarea
+            id="message"
+            name="message"
+            class="contact-form__textarea"
+            placeholder="Tu Mensaje"
+            required
+          ></textarea>
+
+          <button type="submit">Enviar Mensaje</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footerSection" class="footer">
+      <p>
+        &copy; 2024 Fátima Orendain Almada |
+        <a href="#" class="footer__link">Terms & Conditions</a> |
+        <a href="#" class="footer__link">Privacy Policy</a>
+      </p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
